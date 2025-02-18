@@ -5,7 +5,7 @@ package com.funkymuse.aurora.serverconstants
  * Created by FunkyMuse on 10/21/19 to long live and prosper !
  */
 
-private const val BASE_URL = "https://libgen.is/"
+private const val BASE_URL = "https://libgen.li/"
 const val SEARCH_BASE_URL = "${BASE_URL}search.php"
 const val DEFAULT_API_TIMEOUT = 10000
 const val RES_CONST = "res"
@@ -75,9 +75,9 @@ const val SORT_PUBLISHER = "publisher"
 const val LAST_MODE = "mode"
 const val LAST_QUERY = "last"
 
-const val LIBRARY_LOL = "http://library.lol"
-const val LIBGEN_LC = "http://libgen.lc"
-const val THREE_LIB = "https://3lib.net"
+const val LIBRARY_LOL = "https://libgen.gs"
+const val LIBGEN_LC = "https://libgen.li"
+const val THREE_LIB = "http://libgen.vg"
 private fun libraryLolUrl(md5: String)= "${LIBRARY_LOL}/main/$md5"
 private fun libgenLcUrl(md5: String) = "${LIBGEN_LC}/ads.php?md5=$md5"
 private fun zLibrary(md5: String) = "${THREE_LIB}/md5/$md5"
